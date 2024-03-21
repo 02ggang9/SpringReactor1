@@ -1,4 +1,4 @@
-package com.example.flux.section02
+package com.example.flux.section03
 
 import reactor.core.publisher.Flux
 

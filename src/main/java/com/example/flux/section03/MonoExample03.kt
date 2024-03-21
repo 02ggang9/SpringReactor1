@@ -1,4 +1,4 @@
-package com.example.flux.section02
+package com.example.flux.section03
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.springframework.http.HttpEntity
@@ -7,9 +7,7 @@ import org.springframework.web.util.UriComponentsBuilder
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod
 import org.springframework.http.MediaType
-import org.springframework.web.client.exchange
 import reactor.core.publisher.Mono
-import java.awt.PageAttributes
 import java.util.Collections.singletonList
 
 fun main() {
