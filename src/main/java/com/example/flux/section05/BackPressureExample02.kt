@@ -11,7 +11,7 @@ fun main() {
         .doOnRequest { println("Do On Request: $it") }
         .subscribe(object: BaseSubscriber<Int>() {
             override fun hookOnSubscribe(subscription: Subscription) {
-                request(1)
+                request(2)
             }
 
             override fun hookOnNext(value: Int) {
