@@ -1,4 +1,4 @@
-package com.example.flux.section09
+package com.example.flux.section09.class00
 
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Hooks
