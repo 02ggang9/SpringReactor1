@@ -18,6 +18,4 @@ fun main() {
         .map { fruits[it] }
         .map { "맛있는 $it" }
         .subscribe { println("onNext: $it") }
-
-
 }
