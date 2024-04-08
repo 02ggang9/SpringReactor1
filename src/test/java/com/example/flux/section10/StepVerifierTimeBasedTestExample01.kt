@@ -8,7 +8,7 @@ import java.time.Duration
 
 class StepVerifierTimeBasedTestExample01 {
 
-    // 특정 시간만큼 앞당긴다.
+    // 특정 시간만큼 시간을 앞당긴다.
     @Test
     fun getCOVID19CountTest() {
         StepVerifier.withVirtualTime { TimeBasedExample.getCOVID19Count(
